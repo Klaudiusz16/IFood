@@ -38,8 +38,6 @@ This is beta version. The app will keep getting better in the near future.
     
     git clone https://github.com/Klaudiusz16/IFood.git
 
-    We need use 2 terminals (for frontend and backend server)
-
       yarn install
       yarn start
   
