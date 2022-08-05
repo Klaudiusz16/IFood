@@ -1,0 +1,127 @@
+.recipes_container
+    width: 70%
+    background-color: #faf9f9
+    box-sizing: border-box
+    padding: 50px 10px
+    height: 70vh
+    z-index: 33
+    position: absolute
+    top: 0
+    left: 0
+    border-radius: 12px
+
+    .recipes_list
+        &::-webkit-scrollbar 
+            width: 10px
+        &::-webkit-scrollbar-track 
+            background: #e6e6e6
+        &::-webkit-scrollbar-thumb 
+            background: rgb(253, 200, 173)
+        &::-webkit-scrollbar-thumb:hover 
+            background:  var(--lightOrange)
+            height: 80%
+            overflow-y: scroll
+            width: 90%
+            margin: 0 auto
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            align-items: flex-start
+            justify-content: center
+            gap: 10px
+
+    .close_recipes_btn
+        color: white
+        display: flex
+        align-items: center
+        justify-content: center
+        background-color: var(--lightOrange)
+        cursor: pointer
+        outline: none
+        position: absolute
+        top: 10px
+        width: 25px
+        height: 25px
+        right: 20px
+        border: none
+        border-radius: 50%
+
+
+  
+
+    
+
+.recipe_item
+    box-sizing: border-box
+    position: relative
+    width: 150px
+    min-height: 200px
+    max-height: 200px
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    position: relative
+    align-items: center
+    background-color: white
+    cursor: pointer
+    border-radius: 10px
+    padding: 5px
+    transition: background-color 0.2s ease-in-out
+    font-family: 'Roboto', sans-serif
+    font-weight: bold
+    z-index: 20
+    &:hover
+        background-color: rgba(235, 233, 233, 0.466)
+    .dolar
+        color: var(--lightOrange)
+
+    @media (min-width: 1024px)
+        width: 200px
+        min-height: 250px
+        max-height: 250px
+
+    
+    .image_wrapper
+        width: 100px
+        height: 100px
+        border-radius: 10px
+        overflow: hidden
+        @media (min-width: 1024px)
+            width: 150px
+            height: 150px
+
+    img
+        width: 100%
+        height: 100%
+
+    .food_item_caption
+        color: rgb(42,43,60)
+        width: 80%
+        padding: 5px
+        text-align: center
+        font-size: 12px
+
+
+.no_matching_foods
+    color: var(--lightOrange)
+    font-size: 25px
+    letter-spacing: 1.5px
+    font-family: 'Roboto', sans-serif
+    text-transform: uppercase
+
+.loading
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 150px
+    width: 150px
+    background-color: transparent
+    .loading_circele
+        color: var(--lightOrange)
+        width: 100%
+        height: 100%
+        background-color: transparent
+
+   
+   
+    

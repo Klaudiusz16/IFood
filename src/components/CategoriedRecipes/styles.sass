@@ -1,0 +1,48 @@
+.categoried_recipes_container
+    height: 100%
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: flex-start
+    padding: 10px
+    box-sizing: border-box
+    position: relative
+    z-index: 2
+    background-color: white
+
+.loading
+    position: fixed
+    top: calc(50% - 100px)
+    left: calc(50% - 300px)
+    background-color: transparent
+    .loading_circele
+        color: var(--lightOrange)
+        height: 100px
+        width: 100px
+        margin: 0 auto
+        background-color: transparent
+
+.recipes_list
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 5px
+    align-items: flex-start
+    justify-content: space-around
+    overflow-y: scroll
+    height: 37rem
+    width: 100%
+    margin-block-start: 0
+    padding-inline-start: 0
+    padding-bottom: 30px
+    &::-webkit-scrollbar 
+        width: 5px
+    &::-webkit-scrollbar-track 
+        background: #e6e6e6
+    &::-webkit-scrollbar-thumb 
+        background: rgb(253, 200, 173)
+    &::-webkit-scrollbar-thumb:hover 
+        background:  var(--lightOrange)
+
+

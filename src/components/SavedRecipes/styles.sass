@@ -1,0 +1,75 @@
+.saved_recipes
+    width: 100%
+    background-color: var(--lightOrange)
+    height: 100%
+    padding-top: 70px
+    grid-area: saved_recipes
+    transform: translateX(0)
+    transition: transform 0.2s ease-in-out
+    display: flex
+    flex-direction: column
+    justify-content: flex-starta
+    align-items: center
+    box-sizing: border-box
+    @media (max-width: 1024px)
+        position: fixed
+        right: 0
+        top: 70px
+    .no_recipes
+        color: var(--lightOrange)
+        background-color: white
+        padding: 10px
+        width: 200px
+        text-align: center
+        margin: 0 auto
+    .caption
+        color: white
+        font-size: 25px
+        font-weight: 300
+    .save_recipes_list
+        list-style-type: none
+        margin-left: 0
+        padding-inline: 0
+        display: flex
+        flex-direction: column
+        gap: 10px
+        margin: 0 auto
+        width: 90%
+        .saved_recipe_item
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            align-items: center
+            width: 100%
+            gap: 5px
+            margin: 0 auto
+            height: 80px
+            background-color: white
+            border-top-right-radius: 15px
+            border-bottom-right-radius: 15px
+            cursor: pointer
+            transition: background-color 0.1s ease-in-out
+            &:hover
+                background-color: #f3f3f3
+            .saved_recipe_image_wrapper
+                height: 80px
+                width: 80px
+                img
+                    width: 100%
+                    height: 100%
+            .saved_recipe_name
+                width: 70%
+                color: var(--lightOrange)
+
+        
+
+
+
+
+
+.hidden
+    transform: translateX(100%)
+    transition: transform 0.2s ease-in-out
+    @media (min-width: 1023px)
+        transform: translateX(0) !important
+

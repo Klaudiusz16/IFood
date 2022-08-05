@@ -1,0 +1,50 @@
+.header
+    width: 100%
+    height: 70px
+    box-sizing: border-box
+    padding: 5px 10px
+    background-color: var(--lightOrange)
+    display: flex
+    align-items: center
+    justify-content: space-between
+    grid-area: header
+    position: absolute
+    top: 0
+    z-index: 9999
+
+.searchbar_wrapper
+    position: relative
+    overflow: hidden,
+
+.hidden
+    transform: translateX(100%)
+    transition: transform 0.2s ease-in-out   
+
+.searched_recipies
+    width: 100%
+    height: calc(100% - 70px)
+    position: absolute
+    bottom: 0
+    left:0
+    z-index: 5
+
+.row
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    gap: 5px
+
+.app_name
+    font-family: 'Edu VIC WA NT Beginner', cursive
+    color: white
+    min-width: 50px
+    font-size: 18px
+    text-align: center
+    cursor: pointer
+    @media( min-width: 768px)
+        font-size: 24px
+        min-width: 100px
+        
+
+    

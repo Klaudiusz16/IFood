@@ -1,23 +1,37 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Ifood",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Food App",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Klaudiusz Kurbiel",
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.1",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@types/reach__router": "^1.3.10",
+    "@types/react-redux": "^7.1.24",
+    "@types/redux": "^3.6.0",
     "gatsby": "^4.19.2",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-image": "^2.19.0",
     "gatsby-plugin-manifest": "^4.19.0",
     "gatsby-plugin-offline": "^5.19.0",
     "gatsby-plugin-react-helmet": "^5.19.0",
+    "gatsby-plugin-sass": "^5.19.0",
     "gatsby-plugin-sharp": "^4.19.0",
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "5.2.0",
+    "redux": "^4.2.0",
+    "sass": "^1.54.0"
   },
   "devDependencies": {
     "prettier": "^2.7.1"
@@ -30,16 +44,14 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
-    "start": "gatsby develop",
+    "start": "gatsby develop -H 0.0.0.0 -p 8000",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
+  "repository": "\"",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "main": "index.js"
 }

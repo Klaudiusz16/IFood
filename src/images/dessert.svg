@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="81.064mm" height="63.863mm" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0" viewBox="0 0 5462 4303">
+ <defs>
+  <style type="text/css">
+    .str0 {stroke:#8B4F1D;stroke-width:142.619}
+    .str1 {stroke:#EB7F86;stroke-width:142.619}
+    .fil1 {fill:none}
+    .fil2 {fill:#F5B2B6}
+    .fil0 {fill:url(#a)}
+  </style>
+  <linearGradient id="a" x1="473.73" x2="4974.7" y1="2995.9" y2="2995.9" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#EF7F1A" offset="0"/>
+   <stop stop-color="#A7561F" offset="1"/>
+  </linearGradient>
+ </defs>
+    <path class="fil0 str0" d="m474 1760h4501l-933 2472h-2734l-834-2472z"/>
+    <path class="fil1 str0" d="m1783 4232c-273-824-545-1648-818-2472"/>
+    <path class="fil1 str0" d="m2454 4232c-273-824-545-1648-818-2472"/>
+    <path class="fil1 str0" d="m3534 4242c273-824 545-1647 818-2471"/>
+    <path class="fil1 str0" d="m2807 4254c273-824 545-1648 818-2472"/>
+   <path class="fil2 str1" d="m1728 71c358 0 676 176 872 446 194-192 461-310 755-310 485 0 895 321 1031 764 68-20 140-30 215-30 436 0 790 355 790 793s-354 793-790 793c-125 0-243-29-348-81-133 250-395 420-697 420-230 0-436-98-580-255-101 321-400 554-754 554-436 0-789-355-789-793 0-39 2-77 8-114-144 116-351 189-580 189-436 0-790-264-790-589 0-272 249-502 587-568-5-45-8-90-8-136 0-598 483-1083 1078-1083z"/>
+</svg>

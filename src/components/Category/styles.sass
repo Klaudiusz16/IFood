@@ -1,0 +1,53 @@
+.category_item
+    width: 110px
+    height: 150px
+    background-color: white
+    font-family: 'Roboto', sans-serif
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    border-radius: 12px
+    
+    @media (min-width: 1024px)
+        width: 170px
+        height: 220px
+        
+
+
+.category_item_caption
+    text-align: center
+    text-transform: uppercase
+    font-size: 14px
+    width: 90%
+    color: #373852
+    font-weight: thin
+
+.category_item_image_wrapper
+    width: 40px
+    height: 40px
+    @media (min-width: 1024px)
+        width: 60px
+        height: 60px
+    img
+        width: 100%
+        height: 100%
+
+.keyboard_arrow_right_icon_wrapper
+    color: white
+    border-radius: 50%
+    width: 30px
+    height: 30px
+    background-color: var(--lightOrange)
+    display: flex
+    cursor: pointer
+    align-items: center
+    justify-content: center
+    transition: background-color 0.2s ease-in-out
+    &:hover
+      background-color: rgb(201, 96, 43)
+    @media (min-width: 1024px)
+        width: 40px
+        height: 40px
+        
+    

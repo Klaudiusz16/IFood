@@ -1,0 +1,48 @@
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box !important
+    background: #FDC830
+    background: -webkit-linear-gradient(to right, rgb(243, 116, 53), #FDC830)
+    background: linear-gradient(to right, rgb(243, 115, 53), #FDC830)
+    --lightOrange: rgb(233, 145, 102)
+    font-family: 'Roboto', sans-serif
+
+
+
+
+.outside
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+.main_container
+    width: 100%
+    background-color: white
+    position: relative
+    display: grid
+    box-sizing: border-box
+    grid-template-columns: 100%
+    grid-template-areas: "header" "page"
+    @media (min-width: 1024px)
+        width: 80%
+        margin-top: 40px
+        max-height: 80vh
+        border-radius: 15px
+        overflow: hidden
+        grid-template-columns: 70% 30%
+        grid-template-areas: "header header" "page saved_recipes" 
+        
+
+.page_wrapper
+    grid-area: page
+    min-height: 100%
+    position: relative
+    margin-top: 70px
+    box-sizing: border-box
+    // @media (min-width: 1024px)
+    //     width: 60%
+
+
