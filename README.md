@@ -1,4 +1,4 @@
-# Social Node
+# Ifood
 App about food that allows you to search recipes.
 </br>
 
