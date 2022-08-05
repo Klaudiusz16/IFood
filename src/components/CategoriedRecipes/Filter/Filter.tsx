@@ -168,7 +168,7 @@ function Filter({
             "&:hover": { backgroundColor: "var(--lightOrange)" },
           }}
         >
-          Let's filter
+          Let's filtr
         </Button>
       </div>
     </Grow>
