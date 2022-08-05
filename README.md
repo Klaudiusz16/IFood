@@ -13,8 +13,8 @@ This is beta version. The app will keep getting better in the near future.
 
 ## Implementations 
 <ul>
-  <li>searching recipes</li>
-  <li>saving recipes</li>
+  <li>Searching recipes</li>
+  <li>Saving recipes</li>
   <li>Most recipes have images</li>
   <li>Clear instructions</li>
 </ul>
