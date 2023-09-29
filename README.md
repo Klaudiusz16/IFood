@@ -4,7 +4,6 @@ App about food that allows you to search recipes.
 
 <span style="color:red;">
 The website was created for the purpose of learning programming. It may contain bugs.
-This is beta version. The app will keep getting better in the near future.
 </span>
 
 </br>
